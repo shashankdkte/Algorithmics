@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 class HashmapFunctions {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+
     HashMap<String, Integer> hm = new HashMap<>();
     hm.put("India", 100);
     hm.put("China", 150);

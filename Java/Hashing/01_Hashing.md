@@ -32,3 +32,9 @@ get(key)
 containsKey(key)
 remove(key)
 ```
+
+
+### Iteration on Hashmap
+```
+Set<Integer> keys = hm.keySet();
+```
