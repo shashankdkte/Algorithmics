@@ -145,3 +145,9 @@ Performance
 LinkedHashMap < HashMap
 LinkedHashSet < HashSet
 Time  Complexity
+
+---
+
+## TreeSet
+Sorted in Ascending Order
+Null values are not allowed
