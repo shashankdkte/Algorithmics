@@ -134,3 +134,14 @@ b) Using Enhanced For Loop
       System.out.println(city);
     }
 ```
+---
+
+## LinkedHashSet
+
+
+maintain order of insertion
+
+Performance
+LinkedHashMap < HashMap
+LinkedHashSet < HashSet
+Time  Complexity
