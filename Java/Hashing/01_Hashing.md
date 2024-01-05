@@ -76,14 +76,14 @@ Keys are insertion ordered
 LinkedHashMap<K,V> hm = new LinkedHashMap<>();
 ```
 
-Operations
-get
-put
-remove
-size
-isEmpty()
-keySet()
-All operations in O(1)
+| Operation   	| Time Complexity 	|
+|-------------	|-----------------	|
+| get(key)    	| O(1)            	|
+| put(key)    	| O(1)            	|
+| remove(key) 	| O(1)            	|
+| size()      	| O(1)            	|
+| isEmpty()   	| O(1)            	|
+| keySet()    	| O(1)            	|
 
 ---
 ## TreeMap
@@ -93,3 +93,24 @@ put get remove are O(logn)
 TreeMap<K,V> hm = new TreeMap<>();
 ```
 Implemented using Red Black Trees
+
+
+---
+## HashSEet
+no duplicates
+unordered
+Null is allowed
+```java
+HashSet<Integer> hs = new HashSet<>();
+```
+
+| Operation     	| Time Complexity 	|
+|---------------	|-----------------	|
+| add(key)      	| O(1)            	|
+| contains(key) 	| O(1)            	|
+| remove(key)   	| O(1)            	|
+
+
+set.size()
+set.clear()
+set.isEmpty()
