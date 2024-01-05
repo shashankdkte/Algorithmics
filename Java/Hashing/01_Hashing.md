@@ -96,7 +96,7 @@ Implemented using Red Black Trees
 
 
 ---
-## HashSEet
+## HashSet
 no duplicates
 unordered
 Null is allowed
@@ -114,3 +114,23 @@ HashSet<Integer> hs = new HashSet<>();
 set.size()
 set.clear()
 set.isEmpty()
+
+---
+## Iteration on HashSet
+a)Using Iterators
+```java
+Iterator it = set.iterator()
+while(it.hasNext())
+{
+  System.out.println(it.next())
+}
+```
+
+
+b) Using Enhanced For Loop
+
+```java
+ for (String city : cities) {
+      System.out.println(city);
+    }
+```
