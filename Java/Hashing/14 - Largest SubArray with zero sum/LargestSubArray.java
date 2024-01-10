@@ -9,6 +9,7 @@
  *  Output:
  *      0
  *
+ * sum(0,j) - sum(0,i) = sum(i+1,j)
  */
 
  // O(n)
