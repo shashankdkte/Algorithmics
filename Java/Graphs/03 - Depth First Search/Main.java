@@ -1,10 +1,9 @@
 /**
- * 
- * curr = queue.remove()
- * visit[curr] = true
- * print(curr)
- * 
- * queue.add()
+ * print T
+ * visit[curr] - T
+ * for(int i to k)
+ * if(!visited)
+ *  dfs(neighbour)
  */
 import java.util.*;
 
@@ -48,7 +47,7 @@ class Main {
     graph[4].add(new Edge(4, 2, 2));
 
   }
-//O(V+E)
+
   public static void bfs(ArrayList<Edge>[] graph, int src) {
     Queue<Integer> q = new LinkedList<>();
     boolean[] visited = new boolean[graph.length];
@@ -71,13 +70,25 @@ class Main {
 
   }
 
+  public static void dfs(ArrayList<Edge>[] graph, int curr, boolean[] visited) {
+    System.out.print(curr + " ");
+    visited[curr] = true;
+    for (int i = 0; i < graph[curr].size(); i++) {
+      Edge e = graph[curr].get(i);
+      if (!visited[e.dest]) {
+        dfs(graph, e.dest, visited);
+      }
+    }
+  }
+
   public static void main(String[] args) {
     System.out.println("Hello world!");
 
     int V = 5;
     ArrayList<Edge> graph[] = new ArrayList[V]; // null ->empty arraylist
     createGraph(graph);
-    bfs(graph, 0);
-
+    // bfs(graph, 0);
+    dfs(graph, 0, new boolean[V]);
+    
   }
 }
