@@ -20,7 +20,7 @@ class Main {
     boolean[][] visited = new boolean[image.length][image[0].length];
     helper(image,sourceRow,sourceCol,newColor,visited,image[sourceRow][sourceCol]);
     return image;
-  }
+  } 
 
   
   public static void main(String[] args) {
