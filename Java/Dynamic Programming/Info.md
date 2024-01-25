@@ -27,3 +27,14 @@ Tabulation (Bottom Up) (Efficient)
 
   ans = dp[n];
 ```
+
+#### 7 Important questions
+Fibonacci
+0-1 Knapsack
+Unbounded Knapsack
+Longest Common Subsequence
+Kadane Algorithm
+Catalan Number
+DP on Grid 2D Arrays
+
+![img info](./images/06_Dynamic.png)
